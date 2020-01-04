@@ -1,0 +1,31 @@
+{
+  "name": "signpost",
+  "version": "1.0.0",
+  "description": "A simple tool to show keys pressed on the screen for Windows 10",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/Sneezry/Signpost.git",
+  "author": "Sneezry",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "iohook": "^0.6.2"
+  },
+  "iohook": {
+    "targets": [
+      "electron-75"
+    ],
+    "platforms": [
+      "win32"
+    ],
+    "arches": [
+      "x64"
+    ]
+  }
+}

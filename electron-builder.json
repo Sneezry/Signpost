@@ -1,0 +1,5 @@
+{
+  "productName": "Signpost",
+  "appId": "com.sneezry.signpost",
+  "artifactName": "${productName}_Setup_${version}.${ext}"
+}
